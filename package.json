@@ -1,0 +1,22 @@
+{
+  "name": "Node.jsDigitProject",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "three": "^0.170.0"
+  }
+}
